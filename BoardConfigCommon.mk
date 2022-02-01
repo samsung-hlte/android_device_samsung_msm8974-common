@@ -81,6 +81,9 @@ TARGET_FS_CONFIG_GEN := device/samsung/msm8974-common/config.fs
 DEVICE_MANIFEST_FILE := device/samsung/msm8974-common/manifest.xml
 DEVICE_MATRIX_FILE := device/samsung/msm8974-common/compatibility_matrix.xml
 
+# VNDK VERSION
+BOARD_VNDK_VERSION := current
+
 # Legacy memfd
 TARGET_HAS_MEMFD_BACKPORT := true
 
