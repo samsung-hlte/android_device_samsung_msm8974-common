@@ -84,6 +84,9 @@ DEVICE_MATRIX_FILE := device/samsung/msm8974-common/compatibility_matrix.xml
 # VNDK VERSION
 BOARD_VNDK_VERSION := current
 
+# Dedupe VNDK libraries with identical core variants.
+TARGET_VNDK_USE_CORE_VARIANT := true
+
 # Legacy memfd
 TARGET_HAS_MEMFD_BACKPORT := true
 
