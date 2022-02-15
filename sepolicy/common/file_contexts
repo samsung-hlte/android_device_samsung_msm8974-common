@@ -103,3 +103,7 @@
 
 # sysfs - usb
 /sys/devices/virtual/host_notify/usb_otg(/.*)?               u:object_r:sysfs_usb_otg:s0
+
+# radio
+/data/data/com.android.providers.telephony/databases(/.*)?       u:object_r:radio_core_data_file:s0
+/data/data/com.android.providers.telephony/shared_prefs(/.*)?    u:object_r:radio_core_data_file:s0
