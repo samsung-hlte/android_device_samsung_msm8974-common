@@ -1,0 +1,7 @@
+type cbd, domain;
+type cbd_exec, exec_type, file_type;
+init_daemon_domain(cbd)
+
+permissive cbd;
+
+allow cbd device:chr_file { read write };
