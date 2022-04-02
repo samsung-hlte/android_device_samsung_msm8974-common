@@ -8,3 +8,5 @@ allow hal_lineage_touch_default {
     sysfs_sec_epen
     sysfs_sec_tsp
 }:file rw_file_perms;
+
+allow hal_lineage_touch_default sysfs_sec_touchkey:file rw_file_perms;
