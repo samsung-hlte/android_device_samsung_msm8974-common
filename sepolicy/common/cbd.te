@@ -5,3 +5,4 @@ init_daemon_domain(cbd)
 permissive cbd;
 
 allow cbd device:chr_file { read write };
+allow cbd device:chr_file ioctl;
