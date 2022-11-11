@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
-    android.hardware.audio.effect@2.0-service \
     android.hardware.audio.service \
     audio.a2dp.default \
     audio.primary.msm8974 \
@@ -87,8 +86,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     camera.device@1.0-impl \
     camera.msm8974 \
-    libxml2 \
-    Snap
+    libxml2
 
 # DRM
 PRODUCT_PACKAGES += \
