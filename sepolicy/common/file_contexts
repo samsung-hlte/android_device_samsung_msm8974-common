@@ -107,3 +107,6 @@
 # radio
 /data/data/com.android.providers.telephony/databases(/.*)?       u:object_r:radio_core_data_file:s0
 /data/data/com.android.providers.telephony/shared_prefs(/.*)?    u:object_r:radio_core_data_file:s0
+
+# audio
+system/vendor/bin/hw/android.hardware.audio.service.hlte        u:object_r:hal_audio_default_exec:s0
