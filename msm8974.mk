@@ -50,6 +50,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio.service.hlte \
+    android.hardware.bluetooth.audio@2.0-impl \
+    audio.bluetooth.default \
     audio.primary.msm8974 \
     audio.r_submix.default \
     audio.usb.default \
