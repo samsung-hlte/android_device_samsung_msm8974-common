@@ -221,7 +221,8 @@ PRODUCT_PACKAGES += \
     hostapd \
     wificond \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    android.hardware.wifi.supplicant-V1-ndk
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/msm8974-common/msm8974-common-vendor.mk)
