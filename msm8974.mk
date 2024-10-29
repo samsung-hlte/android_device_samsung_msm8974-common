@@ -38,8 +38,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml
 
 # Advanced Display
-#PRODUCT_PACKAGES += \
-#    AdvancedDisplay
+PRODUCT_PACKAGES += \
+    AdvancedDisplay
 
 # APEX
 PRODUCT_COPY_FILES += \
@@ -193,6 +193,14 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl.samsung8974 \
     android.hardware.sensors@1.0-service.samsung8974
 
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(COMMON_PATH) \
+    $(DEVICE_PATH) \
+    device/samsung/msm8974-common \
+    device/samsung/qcom-common \
+    hardware/samsung
+    
 # TimeKeep
 PRODUCT_PACKAGES += \
     timekeep \
